@@ -29,19 +29,3 @@ variable "SECRET_KEY" {
   type        = string
   description = "AWS secret key"
 }
-
-# NETWORKS #
-variable "VPC_CIDR_BLOCK" {
-  type        = string
-  description = "VPC cidr block"
-}
-
-variable "PUBLIC_SUBNETS_CIDR" {
-  type        = list(string)
-  description = "Public subnet cidr values"
-}
-
-variable "PRIVATE_SUBNETS_CIDR" {
-  type        = list(string)
-  description = "Private subnet cidr values"
-}
