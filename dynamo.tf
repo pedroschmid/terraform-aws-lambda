@@ -1,5 +1,5 @@
 resource "aws_dynamodb_table" "this" {
-  name           = "myTable"
+  name           = var.DYNAMO_TABLE_NAME
   hash_key       = "id"
   billing_mode   = "PROVISIONED"
   read_capacity  = 5

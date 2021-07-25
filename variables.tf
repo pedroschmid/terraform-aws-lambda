@@ -29,3 +29,15 @@ variable "SECRET_KEY" {
   type        = string
   description = "AWS secret key"
 }
+
+# DYNAMO  
+variable "DYNAMO_TABLE_NAME" {
+  type        = string
+  description = "DynamoDB table name"
+}
+
+# LAMBDA
+variable "LAMBDA_FUNCTION_NAME" {
+  type        = string
+  description = "Lambda function name"
+}
