@@ -1,5 +1,5 @@
-resource "aws_dynamodb_table" "ddbtable" {
-  name           = "lambda"
+resource "aws_dynamodb_table" "this" {
+  name           = "myTable"
   hash_key       = "id"
   billing_mode   = "PROVISIONED"
   read_capacity  = 5

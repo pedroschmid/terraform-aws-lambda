@@ -12,7 +12,7 @@
         "dynamodb:PutItem",
         "dynamodb:UpdateItem"
       ],
-      "Resource": "arn:aws:dynamodb:us-east-1:987456321456:table/lambda"
+      "Resource": "arn:aws:dynamodb:us-east-1:*:table/myTable"
     }
   ]
 }
